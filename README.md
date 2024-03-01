@@ -3,6 +3,7 @@
 ### 💥Chapter covered in the book💥
 - [Other books in O’Reilly’s Head First series](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Other_Books_In_O_Reilly_s_Head_First_Series)
 - [Author of Head First Python](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Author_of_Head_First_Python)
-- Table of Contents (The Real Thing)
+- [Table of Contents (The Real Thing)]()
+- [How To Use This Book: Intro]()
 
 Link to book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
