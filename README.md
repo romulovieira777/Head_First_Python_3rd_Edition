@@ -6,4 +6,4 @@
 - [Table of Contents (The Real Thing)](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Table_of_Contents_The_Real_Thing)
 - [How To Use This Book: Intro]()
 
-Link to book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
+Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
