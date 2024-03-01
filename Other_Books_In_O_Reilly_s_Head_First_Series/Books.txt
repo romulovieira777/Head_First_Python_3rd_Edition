@@ -1,0 +1,35 @@
+Other books in O’Reilly’s Head First series
+
+Head First Android Development
+
+Head First C#
+
+Head First Data Analysis
+
+Head First Design Patterns
+
+Head First Git
+
+Head First Go
+
+Head First Java
+
+Head First JavaScript Programming
+
+Head First Kotlin
+
+Head First Learn to Code
+
+Head First Object-Oriented Analysis and Design
+
+Head First Programming
+
+Head First Software Development
+
+Head First SQL
+
+Head First Statistics
+
+Head First Swift
+
+Head First Web Design
