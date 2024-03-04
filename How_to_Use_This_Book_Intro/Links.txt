@@ -1,0 +1,8 @@
+GitHub
+https://github.com/headfirstpython/third
+
+Python
+https://www.python.org/
+
+VS Code
+https://code.visualstudio.com/Download
