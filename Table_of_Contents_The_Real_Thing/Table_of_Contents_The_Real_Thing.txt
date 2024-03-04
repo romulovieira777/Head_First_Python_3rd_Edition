@@ -1,1 +1,5 @@
+- Other Books In O’Reilly’s Head First Series
+- Author of Head First Python
+- Table of Contents (The Real Thing)
 - How To Use This Book: Intro
+- Chapter 01 - Why Python?: Similar but Different
