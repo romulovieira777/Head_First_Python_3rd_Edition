@@ -3,3 +3,4 @@
 - Table of Contents (The Real Thing)
 - How To Use This Book: Intro
 - Chapter 01 - Why Python?: Similar but Different
+- Chapter 02 - Diving In: Let's Make A Splash
