@@ -1,0 +1,8 @@
+GitHub
+https://github.com/headfirstpython/third
+
+enum — Support for enumerations
+https://docs.python.org/3/library/enum.html
+
+pathlib — Object-oriented filesystem paths
+https://docs.python.org/3/library/pathlib.html
