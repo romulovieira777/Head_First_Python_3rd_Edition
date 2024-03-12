@@ -4,3 +4,4 @@
 - How To Use This Book: Intro
 - Chapter 01 - Why Python?: Similar but Different
 - Chapter 02 - Diving In: Let's Make A Splash
+- Chapter 03 - List of Numbers: Processing List Data
