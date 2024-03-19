@@ -1,10 +1,15 @@
 import statistics
 
-
 FOLDER = "../swimdata/"
 
 
 def read_swim_data(filename):
+    """
+    Return swim data from a file
+
+    Give the name of a swimmer's file (in filename), extract all the required data, then return it to the caller as a
+    tuple.
+    """
     swimmer, age, distance, stroke = filename.removesuffix(".txt").split("-")
 
     with open(FOLDER + filename) as file:
@@ -14,8 +19,13 @@ def read_swim_data(filename):
     converts = []
 
     for time in times:
-        minutes, rest = time.split(':')
-        seconds, hundredths = rest.split('.')
+        # The minutes value might be missing, so guard against this causing a crash.
+        if ":" in time:
+            minutes, rest = time.split(':')
+            seconds, hundredths = rest.split('.')
+        else:
+            minutes = 0
+            seconds, hundredths = time.split('.')
         converts.append((int(minutes) * 60 * 100) + (int(seconds) * 100) + int(hundredths))
 
     average = statistics.mean(converts)
@@ -25,4 +35,4 @@ def read_swim_data(filename):
     seconds = mins_secs - minutes * 60
     average = str(minutes) + ':' + str(seconds) + '.' + hundredths
 
-    return swimmer, age, distance, stroke, times, average
+    return swimmer, age, distance, stroke, times, average   # Return the data as a tuple
