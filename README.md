@@ -9,5 +9,6 @@
 - [Chapter 02 - Diving In: Let's Make A Splash](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_02_Diving_In_Lets_Make_A_Splash)
 - [Chapter 03 - List of Numbers: Processing List Data](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_03_List_of_Numbers_Processing_List_Data)
 - [Chapter 04 - List of Files: Functions, Modules & Files](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_04_List_of_Files_Functions_Modules_Files)
+- [Chapter 05 - Formatted String Literals: Make Charts From Data]()
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
