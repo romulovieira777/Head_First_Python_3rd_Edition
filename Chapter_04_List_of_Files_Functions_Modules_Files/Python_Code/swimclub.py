@@ -35,4 +35,4 @@ def read_swim_data(filename):
     seconds = mins_secs - minutes * 60
     average = f"{minutes}:{seconds}.{hundredths}"
 
-    return swimmer, age, distance, stroke, times, average, converts   # Return the data as a tuple
+    return swimmer, age, distance, stroke, times, average, converts  # Return the data as a tuple
