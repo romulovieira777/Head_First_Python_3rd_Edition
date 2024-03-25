@@ -7,3 +7,4 @@
 - Chapter 03 - List of Numbers: Processing List Data
 - Chapter 04 - List of Files: Functions, Modules & Files
 - Chapter 05 - Formatted String Literals: Make Charts From Data
+- Chapter 06 - Getting Organized: Data Structure Choices
