@@ -10,5 +10,6 @@
 - [Chapter 03 - List of Numbers: Processing List Data](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_03_List_of_Numbers_Processing_List_Data)
 - [Chapter 04 - List of Files: Functions, Modules & Files](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_04_List_of_Files_Functions_Modules_Files)
 - [Chapter 05 - Formatted String Literals: Make Charts From Data](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_05_Formatted_String_Literals_Make_Charts_From_Data)
+- [Chapter 06 - Getting Organized: Data Structure Choices]()
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
