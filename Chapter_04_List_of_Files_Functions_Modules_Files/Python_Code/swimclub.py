@@ -1,6 +1,6 @@
 import statistics
 import Chapter_05_Formatted_String_Literals_Make_Charts_From_Data.Python_Code.hfpy_utils as hfpy_utils
-import Chapter_04_List_of_Files_Functions_Modules_Files.Python_Code.swimclub as swimclub
+
 
 FOLDER = "../swimdata/"
 CHARTS = "../charts/"
