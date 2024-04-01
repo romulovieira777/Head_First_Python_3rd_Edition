@@ -8,3 +8,4 @@
 - Chapter 04 - List of Files: Functions, Modules & Files
 - Chapter 05 - Formatted String Literals: Make Charts From Data
 - Chapter 06 - Getting Organized: Data Structure Choices
+- Chapter 07 - Building A Webapp: Web Development
