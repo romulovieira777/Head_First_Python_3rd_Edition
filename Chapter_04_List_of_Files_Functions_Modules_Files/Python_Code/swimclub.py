@@ -1,6 +1,6 @@
 import statistics
 import Chapter_05_Formatted_String_Literals_Make_Charts_From_Data.Python_Code.hfpy_utils as hfpy_utils
-
+import Chapter_04_List_of_Files_Functions_Modules_Files.Python_Code.swimclub as swimclub
 
 FOLDER = "../swimdata/"
 CHARTS = "../charts/"
@@ -32,13 +32,13 @@ def read_swim_data(filename):
         converts.append((int(minutes) * 60 * 100) + (int(seconds) * 100) + int(hundredths))
 
     average = statistics.mean(converts)
-    mins_secs, hundredths = f"{(average // 100):.2f}".split(".")
+    mins_secs, hundredths = f"{(average / 100):.2f}".split(".")
     mins_secs = int(mins_secs)
     minutes = mins_secs // 60
     seconds = mins_secs - minutes * 60
-    average = f"{minutes}:{seconds:0>2}.{hundredths}"
+    average = f"{minutes}:{seconds:0>2}.{hundredths}"  # Your first f-string (which includes formatting).
 
-    return swimmer, age, distance, stroke, times, average, converts  # Return the data as a tuple
+    return swimmer, age, distance, stroke, times, average, converts  # Returned as a tuple.
 
 
 def produce_bar_chart(fn):
