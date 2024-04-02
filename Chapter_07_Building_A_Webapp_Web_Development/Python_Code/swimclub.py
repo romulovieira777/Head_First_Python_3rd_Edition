@@ -1,9 +1,8 @@
 import statistics
-import Chapter_05_Formatted_String_Literals_Make_Charts_From_Data.Python_Code.hfpy_utils as hfpy_utils
-import Chapter_04_List_of_Files_Functions_Modules_Files.Python_Code.swimclub as swimclub
+import Chapter_07_Building_A_Webapp_Web_Development.Python_Code.hfpy_utils as hfpy_utils
 
-FOLDER = "../swimdata/"
-CHARTS = "../charts/"
+FOLDER = "swimdata/"
+CHARTS = "charts/"
 
 
 def read_swim_data(filename):
