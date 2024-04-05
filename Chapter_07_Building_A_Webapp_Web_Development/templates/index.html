@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome to the Swimclub system</title>
-    </head>
-    <body>
-        <h3>Welcome to the Swimclub system</h3>
-        <p>
-            This is the Coach's swimclub system.
-            Begin by selecting a <a href="/swimmers">swimmer</a> to work with.
-        </p>
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block body %}
+<p>
+    This is the Coach's swimclub system.
+    Begin by selecting a <a href="/swimmers">swimmer</a> to work with.
+</p>
+{% endblock %}
