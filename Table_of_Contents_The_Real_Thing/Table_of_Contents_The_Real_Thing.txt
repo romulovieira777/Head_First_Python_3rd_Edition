@@ -9,3 +9,4 @@
 - Chapter 05 - Formatted String Literals: Make Charts From Data
 - Chapter 06 - Getting Organized: Data Structure Choices
 - Chapter 07 - Building A Webapp: Web Development
+- Chapter 08 - Deployment: Run Your Code Anywhere
