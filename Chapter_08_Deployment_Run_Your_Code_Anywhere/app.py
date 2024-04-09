@@ -1,7 +1,7 @@
 from flask import Flask, session, render_template, request
 
 import os
-import Chapter_07_Building_A_Webapp_Web_Development.Python_Code.swimclub as swimclub
+import Chapter_08_Deployment_Run_Your_Code_Anywhere.Python_Code.swimclub as swimclub
 
 
 app = Flask(__name__)
