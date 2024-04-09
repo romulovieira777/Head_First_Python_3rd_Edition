@@ -10,3 +10,4 @@
 - Chapter 06 - Getting Organized: Data Structure Choices
 - Chapter 07 - Building A Webapp: Web Development
 - Chapter 08 - Deployment: Run Your Code Anywhere
+- Chapter 09 - Working With HTML: Web Scraping
