@@ -13,5 +13,6 @@
 - [Chapter 06 - Getting Organized: Data Structure Choices](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_06_Getting_Organized_Data_Structure_Choices)
 - [Chapter 07 - Building A Webapp: Web Development](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_07_Building_A_Webapp_Web_Development)
 - [Chapter 08 - Deployment: Run Your Code Anywhere](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_08_Deployment_Run_Your_Code_Anywhere)
+- [Chapter 09 - Working With HTML: Web Scraping]()
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
