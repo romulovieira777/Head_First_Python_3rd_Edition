@@ -17,3 +17,4 @@
 - [Chapter 10 - Working With: Data Manipulation](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_10_Working_With_Data_Manipulation)
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
+# parei no Chapter 10 - PythonAnywhere has you covered…
