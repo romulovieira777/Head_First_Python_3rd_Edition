@@ -1,0 +1,5 @@
+SQLite
+https://www.sqlite.org/mostdeployed.html
+
+PyPi -> SQLite
+https://docs.python.org/3/library/sqlite3.html
