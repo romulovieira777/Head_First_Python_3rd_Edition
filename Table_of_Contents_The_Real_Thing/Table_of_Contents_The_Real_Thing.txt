@@ -13,3 +13,4 @@
 - Chapter 09 - Working With HTML: Web Scraping
 - Chapter 10 - Working With: Data Manipulation
 - Chapter 11 - Working With: Elephants Dataframes: Tabular Data
+- Chapter 12 - Databases: Getting Organized
