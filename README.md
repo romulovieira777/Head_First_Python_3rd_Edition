@@ -17,5 +17,6 @@
 - [Chapter 10 - Working With: Data Manipulation](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_10_Working_With_Data_Manipulation)
 - [Chapter 11 - Working With: Elephants Dataframes: Tabular Data](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_11_Working_With_Elephants_Dataframes_Tabular_Data/Jupyter_Code)
 - [Chapter 12 - Databases: Getting Organized](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_12_Databases_Getting_Organized)
+- [Chapter 13 - List Comprehensions: Database Integration]()
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
