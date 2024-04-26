@@ -1,4 +1,4 @@
-imoprt DBcm
+import DBcm
 import os
 
 
