@@ -10,32 +10,46 @@ files = os.listdir(FOLDER)
 # files.remove(".DS_Store")
 
 SQL_SELECT_SWIMMERS = """
-    SELECT * FROM swimmers WHERE name = ? AND age = ?
+    SELECT * FROM swimmers
+    WHERE name = ? AND age = ?
 """
 
 SQL_INSERT_SWIMMERS = """
-    INSERT INTO swimmers (name, age) VALUES (?, ?)
+    INSERT INTO swimmers
+    (name, age)
+    VALUES
+    (?, ?)
 """
 
 SQL_SELECT_EVENTS = """
-    SELECT * FROM events WHERE distance = ? AND stroke = ?
+    SELECT * FROM events
+    WHERE distance = ? AND stroke = ?
 """
 
 SQL_INSERT_EVENTS = """
-    INSERT INTO events (distance, stroke) VALUES (?, ?)
+    INSERT INTO events
+    (distance, stroke)
+    VALUES
+    (?, ?)
 """
 
 SQL_GET_SWIMMER = """
-    SELECT id FROM swimmers WHERE name = ? AND age = ?
+    SELECT id FROM swimmers
+    WHERE name = ? AND age = ?
 """
 
 SQL_GET_EVENT = """
-    SELECT id FROM events WHERE distance = ? AND stroke = ?
+    SELECT id FROM events
+    WHERE distance = ? AND stroke = ?
 """
 
 SQL_INSERT_TIMES = """
-    INSERT INTO times (swimmer_id, event_id, time) VALUES (?, ?, ?)
+    INSERT INTO times
+    (swimmer_id, event_id, time)
+    VALUES
+    (?, ?, ?)
 """
+
 
 with DBcm.UseDatabase(db_details) as db:
     for fn in files:
