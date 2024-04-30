@@ -18,5 +18,6 @@
 - [Chapter 11 - Working With: Elephants Dataframes: Tabular Data](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_11_Working_With_Elephants_Dataframes_Tabular_Data/Jupyter_Code)
 - [Chapter 12 - Databases: Getting Organized](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_12_Databases_Getting_Organized)
 - [Chapter 13 - List Comprehensions: Database Integration](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_13_List_Comprehensions_Database_Integration)
+- [Chapter 14 - Deployment Revisited: The Finishing Touches]()
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
