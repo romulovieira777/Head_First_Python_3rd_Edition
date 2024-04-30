@@ -1,7 +1,8 @@
 from flask import Flask, session, render_template, request
 
 import os
-import Chapter_10_Working_With_Data_Manipulation.Python_Code.swimclub as swimclub
+import Chapter_13_List_Comprehensions_Database_Integration.Python_Code.data_utils as data_utils
+import Chapter_13_List_Comprehensions_Database_Integration.Python_Code.convert_utils as convert_utils
 
 
 app = Flask(__name__)
@@ -16,48 +17,70 @@ def index():
     )
 
 
-def populate_data():
-    if "swimmers" not in session:
-        swim_files = os.listdir(swimclub.FOLDER)
-        #swim_files.remove(".DS_Store")
-        session["swimmers"] = {}
-        for file in swim_files:
-            name, *_ = swimclub.read_swim_data(file)
-            if name not in session["swimmers"]:
-                session["swimmers"][name] = []
-            session["swimmers"][name].append(file)
-
-
-@app.get("/swimmers")
-def display_swimmers():
-    populate_data()
+@app.get("/swims")
+def display_swim_sessions():
+    data = data_utils.get_swim_sessions()
+    dates = [session[0].split(" ")[0] for session in data]
     return render_template(
         "select.html",
-        title="Select a swimmer",
-        url="/showfiles",
-        select_id="swimmer",
-        data=sorted(session["swimmers"]),
+        title="Select a swim session",
+        url="/swimmers",
+        select_id="chosen_date",
+        data=dates,
     )
 
 
-@app.post("/showfiles")
-def display_swimmers_files():
-    populate_data()
-    name = request.form["swimmer"]
+@app.post("/swimmers")
+def display_swimmers():
+    session["chosen_date"] = request.form["chosen_date"]
+    data = data_utils.get_session_swimmers(session["chosen_date"])
+    swimmers = [f"{swimmer[0]}-{swimmer[1]}" for swimmer in data]
+    return render_template(
+        "select.html",
+        title="Select a swimmer",
+        url="/showevents",
+        select_id="swimmer",
+        data=sorted(swimmers),
+    )
+
+
+@app.post("/showevents")
+def display_swimmer_events():
+    session["swimmer"], session["age"] = request.form["swimmer"].split("-")
+    data = data_utils.get_swimmers_events(
+        session["swimmer"], session["age"], session["chosen_date"]
+    )
+    events = [f"{event[0]} {event[1]}" for event in data]
     return render_template(
         "select.html",
         title="Select an event",
         url="/showbarchart",
-        select_id="file",
-        data=session["swimmers"][name],
+        select_id="event",
+        data=events,
     )
 
 
 @app.post("/showbarchart")
 def show_bar_chart():
-    file_id = request.form["file"]
-    location = swimclub.produce_bar_chart(file_id, "templates/")
-    return render_template(location.split("/")[-1])
+    distance, stroke = request.form["event"].split(" ")
+    data = data_utils.get_swimmers_times(
+        session["swimmer"],
+        session["age"],
+        distance,
+        stroke,
+        session["chosen_date"],
+    )
+    times = [time[0] for time in data]
+    average_str, times_reversed, scaled = convert_utils.perform_conversions(times)
+    world_records = convert_utils.get_worlds(distance, stroke)
+    header = f"{session['swimmer']} (Under {session['age']}) {distance} {stroke} - {session['chosen_date']}"
+    return render_template(
+        "chart.html",
+        title=header,
+        data=list(zip(times_reversed, scaled)),
+        average=average_str,
+        worlds=world_records,
+    )
 
 
 if __name__ == "__main__":

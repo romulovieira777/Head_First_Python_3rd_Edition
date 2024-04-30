@@ -2,7 +2,7 @@ import DBcm
 
 db_details = "CoachDB.sqlite3"
 
-from Chapter_13_List_Comprehensions_Database_Integration.lixo.queries import *
+from Chapter_13_List_Comprehensions_Database_Integration.Python_Code.queries import *
 
 
 def get_swim_sessions():
