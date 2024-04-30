@@ -15,3 +15,4 @@
 - Chapter 11 - Working With: Elephants Dataframes: Tabular Data
 - Chapter 12 - Databases: Getting Organized
 - Chapter 13 - List Comprehensions: Database Integration
+- Chapter 14 - Deployment Revisited: The Finishing Touches
