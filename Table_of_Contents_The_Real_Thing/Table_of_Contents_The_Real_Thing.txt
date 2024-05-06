@@ -16,4 +16,4 @@
 - Chapter 12 - Databases: Getting Organized
 - Chapter 13 - List Comprehensions: Database Integration
 - Chapter 14 - Deployment Revisited: The Finishing Touches
-- The Top Ten Things We Didn't Cover
+- Appendix A: The Top Ten Things We Didn't Cover
