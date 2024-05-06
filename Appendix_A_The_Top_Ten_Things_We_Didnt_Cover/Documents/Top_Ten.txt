@@ -1,0 +1,10 @@
+1 - Classes
+2 - Exceptions
+3 - Testing
+4 - The walrus operator
+5 - Where's the switch? What switch?
+6 - Advanced language features
+7 - Concurrency
+8 - Type Hints
+9 - Virtual Environments
+10 - Tools
