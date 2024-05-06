@@ -19,5 +19,6 @@
 - [Chapter 12 - Databases: Getting Organized](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_12_Databases_Getting_Organized)
 - [Chapter 13 - List Comprehensions: Database Integration](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_13_List_Comprehensions_Database_Integration)
 - [Chapter 14 - Deployment Revisited: The Finishing Touches](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Chapter_14_Deployment_Revisited_The_Finishing_Touches)
+- [Appendix A: The Top Ten Things We Didn't Cover](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Appendix_A_The_Top_Ten_Things_We_Didnt_Cover)
 
 Link to the book [O'Reilly](https://www.oreilly.com/library/view/head-first-python/9781492051282/)
