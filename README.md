@@ -1,5 +1,5 @@
 # Head First Python, 3rd Edition 👽🤖👩🏻‍💻🤯⚙️🐍🧠🎲☁️
-## Book  Head First Python, 3rd Edition
+## Book Head First Python, 3rd Edition
 ### 💥Chapter covered in the book💥
 - [Other Books In O’Reilly’s Head First Series](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Other_Books_In_O_Reilly_s_Head_First_Series)
 - [Author of Head First Python](https://github.com/romulovieira777/Head_First_Python_3rd_Edition/tree/main/Author_of_Head_First_Python)
